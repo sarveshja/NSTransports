@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="80dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:text="NS Travels"-->
+    <!--        android:textSize="50dp" />-->
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="550dp"
+        android:bottomRightRadius="70dp"
+        android:bottomLeftRadius="70dp"
+        android:topLeftRadius="70dp"
+        android:topRightRadius="70dp"
+        android:backgroundTint="@color/dark_blue"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:backgroundTint="@color/dark_blue"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:bottomRightRadius="170dp"
+        android:bottomLeftRadius="170dp"
+        android:topLeftRadius="170dp"
+        android:topRightRadius="170dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:text="REGISTER"
+        android:textSize="20dp"/>
+</LinearLayout>
